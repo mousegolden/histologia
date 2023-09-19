@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--
+index.html
+Histology Guide
+Version 6.0
+Copyright (c) 2005-2023. T. Clark Brelje and Robert L. Sorenson. All rights reserved.
+-->
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMM6B02G5T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GMM6B02G5T');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="Ha-9THyHYWXXz8rJ90gp26xsvU1MwSlg4tMLcfjafN4">
+    <meta name="msvalidate.01" content="858E04A6F14DE5683A15E3F1D35E42C9">
+    <title>Histology Guide - virtual microscopy laboratory</title>
+    <meta name="description" content="Histology Guide teaches the visual art of recognizing the structure of cells and tissues and understanding how this is determined by their function.">
+    <link rel="canonical" href="index.html">
+    <link rel="icon" href="imgs/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon-180x180.png">
+    <link rel="stylesheet" href="https://histologyguide.com/css/styles.css">
+    <link rel="stylesheet" href="https://histologyguide.com/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://histologyguide.com/css/tooltipster.bundle.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write("<script src='https://histologyguide.com/js/jquery-3.5.1.min.js'><\/script>")
+    </script>
+    <script src="https://histologyguide.com/js/headroom.min.js"></script>
+    <script src="https://histologyguide.com/js/jquery.headroom.js"></script>
+    <script src="https://histologyguide.com/js/jquery.fancybox.min.js"></script>
+    <script src="https://histologyguide.com/js/jquery.goup.min.js"></script>
+    <script src="https://histologyguide.com/js/jquery.lettering.js"></script>
+    <script src="https://histologyguide.com/js/jquery.textillate.js"></script>
+    <script src="https://histologyguide.com/js/tooltipster.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        	$('header').headroom();
+    	    jQuery.goup({
+    	    	title: "Scroll to Top"
+    	    });
+        	$('.tlt').textillate({ in: { effect: 'fadeIn', delay: '25' } });
+            $('#duct').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Striated Duct (parotid)</span>')
+            });
+            $('#fibroblast').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Fibroblast<br>(connective tissue)</span>')
+            });
+            $('#eosinophil').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Eosinophil (blood)</span>')
+            });
+            $('#cilia').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Cilia and Microvilli</span>')
+            });
+            $('#podocytes').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Podocytes<br>(kidney glomerulus)</span>')
+            });
+            $('#eye').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Eye</span>')
+            });
+            $('#goblet-cell').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Goblet Cell<br>(small intestine)</span>')
+            });
+            $('#osteon').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Osteon (bone)</span>')
+            });
+            $('#oocyte').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Oocyte (ovary)</span>')
+            });
+            $('#immune-cells').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Eosinophil and Mast Cell<br>(connective tissue)</span>')
+            });
+            $('#larynx').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Respiratory Epithelium<br>(larynx)</span>')
+            });
+            $('#fat-cells').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to View<br>Fat Cells<br>(adipose tissue)</span>')
+            });
+            $('#atlas-tooltip').tooltipster({
+                theme: ['tooltipster-borderless', 'tooltipster-borderless-customized'],
+                delay: 500,
+                side: "bottom",
+                maxWidth: 250,
+                content: $('<span>Click to Download<br>Chapter 1 - Introduction<br>Chapter 14 - Gastrointestinal Tract</span>')
+            });
+        });
+    </script>
+</head>
+
+<body class="appmenu-home">
+    <div id="wrapper">
+        <header class="headroom">
+            <h1 class="title">Histology Guide</h1>
+            <span class="subtitle tlt">virtual microscopy laboratory</span>
+            <div class="options">
+                <ul>
+                    <li><a href="about-us/about-us.html">About</a></li>
+                    <li><a href="about-us/contact-us.html">Contact</a></li>
+                    <li><a href="about-us/license.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="appmenu">
+                <ul>
+                    <li><a class="appmenu-home" href="index.html">HOME</a></li>
+                    <li><a href="slidebox/slidebox.html">SLIDE BOX</a></li>
+                    <li><a href="EM-atlas/EM-atlas.html">ELECTRON MICROSCOPY</a></li>
+                    <li><a href="quizzes/quizzes.html">QUIZ</a></li>
+                    <li><a href="index/index-A.html">INDEX</a></li>
+                    <li><a href="search.html">SEARCH</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="clearfloat"></div>
+        <aside>
+            <div class="background">
+                <div id="atlas">
+                    <a href="about-us/atlas-of-human-histology.html"><img src="imgs/atlas-of-human-histology.png" width="180" height="233" id="atlas-tooltip" alt="atlas of human histology"></a>
+                </div>
+                <div class="description">
+                    <p class="title"><a href="about-us/atlas-of-human-histology.html">Atlas of Human Histology</a></p>
+                    <p>A Guide to Microscopic<br>Structure of Cells, Tissues<br>and Organs</p>
+                    <p>Robert L. Sorenson
+                        <br>T. Clark Brelje</p>
+                    <p>3rd Edition<br> Copyright &copy; 2004, 2008, 2014.
+                        <br>All rights reserved.</p>
+                    <p><a href="https://bookstores.umn.edu/product/book/atlas-human-histology-3rd">$75.00<br>University of Minnesota<br>Bookstore</a></p>
+                </div>
+            </div>
+        </aside>
+        <div id="content">
+            <p>Do you have microscope slides, EM micrographs or other materials that would improve your ability to use Histology Guide? If so, please contact us at <a href="mailto:tcbrelje@gmail.com">tcbrelje@gmail.com</a>.</a></p>
+            <p>Send a message to <a href="mailto:tcbrelje@gmail.com">tcbrelje@gmail.com</a> to join a mailing list for notification of improvements to the website. A short description on how it is used would help us make further improvements.</p>
+            <p><strong>Notice:</strong> If your browser displays a security warning using HistologyGuide.com, try accessing the website through HistologyGuide.org.</p>
+            <div class="fancybox">
+                <a id="duct" data-fancybox="gallery" data-caption="Striate Duct (parotid)" href="imgs/striate-duct-parotid.jpg"><img src="imgs/fb-striate-duct-parotid.jpg" width= "167" height="167" alt="Exocrine Duct"></a>
+                <a id="fibroblast" data-fancybox="gallery" data-caption="Fibroblast (connective tissue)" href="imgs/fibroblast-electron-microscopy.jpg"><img src="imgs/fb-fibroblast-electron-microscopy.jpg" width= "167" height="167" alt="fibroblast (transmission electron microscopy)"></a>
+                <a id="eosinophil" data-fancybox="gallery" data-caption="Eosinophil (blood)" href="imgs/eosinophil.jpg"><img src="imgs/fb-eosinophil.jpg" width= "167" height="167" alt="eosinophil"></a>
+                <a id="cilia" data-fancybox="gallery" data-caption="Cilia and Microvilli" href="imgs/cilia-microvilli-electron-microscopy.jpg"><img src="imgs/fb-cilia-microvilli-electron-microscopy.jpg" width= "167" height="167" alt="Cilia/Microvilli (scanning electron microscopy)"></a>
+                <a id="podocytes" data-fancybox="gallery" data-caption="Podocytes (kidney glomerulus)" href="imgs/kidney-glomerulus-electron-microscopy.jpg"><img src="imgs/fb-kidney-glomerulus-electron-microscopy.jpg" width= "167" height="167" alt="Kidney Glomerulus (scanning electron microscopy)"></a>
+                <a id="eye" data-fancybox="gallery" data-caption="Eye" href="imgs/eye.jpg"><img src="imgs/fb-eye.jpg" width="167" height="167" alt="Eye"></a>
+                <a id="goblet-cell" data-fancybox="gallery" data-caption="Goblet Cell (small intestine)" href="imgs/small-intestine.jpg"><img src="imgs/fb-small-intestine.jpg" width= "167" height="167" alt="Goblet Cell in the Small Intestine (transmission electron microscopy)"></a>
+                <a id="osteon" data-fancybox="gallery" data-caption="Osteon (bone)" href="imgs/bone-osteon.jpg"><img src="imgs/fb-bone-osteon.jpg" width= "167" height="167" alt="Bone (osteon)"></a>
+                <a id="oocyte" data-fancybox="gallery" data-caption="Oocyte (ovary)" href="imgs/oocyte.jpg"><img src="imgs/fb-oocyte.jpg" width="167" height="167" alt="oocyte"></a>
+                <a id="immune-cells" data-fancybox="gallery" data-caption="Eosinophil and Mast Cell (connective tissue)" href="imgs/eosinophil-mast-cell-electron-microscopy.jpg"><img src="imgs/fb-eosinophil-mast-cell-electron-microscopy.jpg" width= "167" height="167" alt="Eosinophil and Mast Cell (transmission electron microscopy"></a>
+                <a id="larynx" data-fancybox="gallery" data-caption="Respiratory Epithelium (larynx)" href="imgs/respiratory-epithelium.jpg"><img src="imgs/fb-respiratory-epithelium.jpg" width= "167" height="167" alt="Respiratory Epithelium (larynx)"></a>
+                <a id="fat-cells" data-fancybox="gallery" data-caption="Fat Cells (adipose tissue)" href="imgs/fat-cells-electron-microscopy.jpg"><img src="imgs/fb-fat-cells-electron-microscopy.jpg" width= "167" height="167" alt="Fat Cells (scanning electron microscopy)"></a>
+            </div>
+            <p>Histology is the study of the microanatomy of cells, tissues, and organs as seen through a microscope. It examines the correlation between structure and function.</p>
+            <p><strong>Histology Guide</strong> teaches the visual art of recognizing the structure of cells and tissues and understanding how this is determined by their function. Rather than reproducing the information found in a histology textbook, a user is shown how to apply this knowledge to interpret cells and tissues as viewed through a microscope.</p>
+            <p>Because of the high cost of purchasing (and maintaining) microscopes and preparing (or purchasing) slide collections, histology is often taught today without laboratories. A histology atlas is frequently used as a replacement. This is unfortunate because no matter how good the few images in a textbook or histology atlas are, they cannot replace the experience of viewing a specimen through a microscope.</p>
+            <img class="left-img" src="imgs/aperio-scanner.jpg" width="300" height="188" alt="Aperio Microscope Slide Scanner">
+            <p><strong>Histology Guide</strong> solves this problem by recreating the look and feel of a microscope in an intuitive, browser-based interface.</p>
+            <p>An <a href="https://www.leicabiosystems.com/digital-pathology/scan/">Aperio slide scanner</a> was used to obtain a high-resolution image of each slide in its entirety. Large tissues are up to 34 GB for a single, uncompressed image of 150,000 x 75,000 pixels.</p>
+            <p>The contrast, color, and sharpness of each image were adjusted to at least maintain the appearance of the tissue as seen through a microscope. In many cases, these adjustments improved upon their visual appearance.</p>
+            <img class="right-img" src="imgs/image-processing.jpg" width="200" height="98" alt="example of image processing">
+            <p>Unlike low-resolution images, users can interactively explore these large images by zooming-and-panning in real-time. A software-based virtual microscope (<a href="http://zoomify.com">Zoomify HTML5 Enterprise</a>) allows the examination of large and small structures in the same specimen.</p>
+            <p>This approach provides a more engaging learning experience and sense of scale, proportion, and context that is not possible with a traditional histology textbook or atlas.</p>
+            <img class="left-img" src="imgs/zoom.jpg" width="300" height="185" alt="viewing of large images">
+            <p>The <a href="about-us/atlas-of-human-histology.html">Atlas of Human Histology: A Guide to Microscopic Structure of Cells, Tissues and Organs</a> by Robert L. Sorenson and T. Clark Brelje provides a print version of the core slides from this website. Individual slides are presented as a series of images of increasing magnification to help convey a sense of scale and proportion. This atlas allows each student to have an easily accessible, printed summary of the essential slides from this website.</p>
+            <p><strong>Histology Guide</strong> is intended to be used with - not replace - a good histology textbook.</p>
+            <p>Questions, comments or suggestions should be sent to <a href="mailto:tcbrelje@gmail.com">tcbrelje@gmail.com</a></p>
+            <p>&nbsp;</p>
+        </div>
+        <footer>
+            <p>Copyright &copy; 2005-2023. T. Clark Brelje and Robert L. Sorenson. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
